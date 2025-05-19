@@ -24,14 +24,14 @@ Each factor is graded on five levels, with Grade 1 indicating the highest priori
 
 Where:
 
-● K = Length of the chosen road path (in number of cells).
+K = Length of the chosen road path (in number of cells).
 
-● X = Grade level for each objective (biodiversity conservation, hazard probability, and
+X = Grade level for each objective (biodiversity conservation, hazard probability, and
 low-cost areas)
 
-● weightB, weightH, and weightC represent the weights for biodiversity conservation,
+weightB, weightH, and weightC represent the weights for biodiversity conservation,
 hazard probability (soil erosion), and low-cost areas, respectively.
 
-● β = Sum of values along the direction of the path
+β = Sum of values along the direction of the path
 
-● ∂ = Decided constant
+∂ = Decided constant
