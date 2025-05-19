@@ -19,3 +19,14 @@
 3. Minimize construction costs
 
 Each factor is graded on five levels, with Grade 1 indicating the highest priority. A fitness function evaluates routes based on these criteria, using weights and grading values to balance trade-offs and guide the selection of environmentally sustainable, cost-effective paths.
+
+!objectivefx
+
+Where:
+● K = Length of the chosen road path (in number of cells).
+● X = Grade level for each objective (biodiversity conservation, hazard probability, and
+low-cost areas)
+● weightB, weightH, and weightC represent the weights for biodiversity conservation,
+hazard probability (soil erosion), and low-cost areas, respectively.
+● β = Sum of values along the direction of the path
+● ∂ = Decided constant
